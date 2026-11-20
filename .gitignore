@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+frontend/backend/uploads/avatars/*
+!frontend/backend/uploads/avatars/.gitkeep
+frontend/backend/uploads/chat/*
+!frontend/backend/uploads/chat/.gitkeep
+frontend/backend/uploads/reports/*
+!frontend/backend/uploads/reports/.gitkeep
+frontend/backend/logs/*
+!frontend/backend/logs/.gitkeep
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
